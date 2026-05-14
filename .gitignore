@@ -8,6 +8,7 @@ dist/
 
 # generated types
 .astro/
+.vercel/
 worker-configuration.d.ts
 
 # dependencies
