@@ -17,14 +17,14 @@ export const DATA = {
   name: "Rodrigo Bonilla - Software Developer",
   initials: "RB",
   url: "https://alexmercer.dev",
-  location: "Austin, TX",
-  locationLink: "https://www.google.com/maps/place/austin+tx",
+  location: "San Salvador, El Salvador AKA ฿itcoin Country",
+  locationLink: "https://maps.app.goo.gl/XaeaVRj9YbdQ5Nwt8",
   description:
     "Full-stack developer based in El Salvador. I'm driven by building user-friendly apps with a focus on design.",
   summary:
-    "I graduated as a technichal high-school in software development at \"Instituto Técnico Ricaldone\" and half a year later I graduated from [@cuboplus](https://cuboplus.academy) to right after build their landing page.",
+    "Software developer, graphic designer and operations professional based in El Salvador. Bilingual in Spanish and English (B2)",
   avatarUrl: "/cv.jpeg",
-  ogImage: "/og_image.png",
+  ogImage: "/og_image.webp",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     work: { order: 2, enabled: false, heading: "Work Experience", presentLabel: "Present" },
@@ -202,6 +202,14 @@ export const DATA = {
       end: "2024",
     },
     {
+      school: "CUBO+",
+      href: "https://cuboplus.academy",
+      degree: "Certification in Bitcoin for developers.",
+      logoUrl: "https://pbs.twimg.com/profile_images/1837279282525003776/lY_e6fpP_400x400.jpg",
+      start: "Feb 2023",
+      end: "July 2023",
+    },
+    {
       school: "Instituto Técnico Ricaldone",
       href: "https://ricaldone.edu.sv",
       degree: "Technical high-school in software development",
@@ -246,6 +254,22 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Brand book for Morazán Sur",
+      href: "https://www.behance.net/gallery/243823943/Manual-de-marca-Morazan-Sur",
+      dates: "January 2025 - May 2025",
+      active: true,
+      description:
+        "Official brand book for the municipality of Morazán Sur in El Salvador.",
+      technologies: [
+        "Adobe photoshop",
+        "Adobe illustrator"
+      ],
+      links: [
+      ],
+      image: "/brandbookm.webp",
+      video: "",
+    },
+    {
       title: "CUBO+ Official Website",
       href: "https://cuboplus.academy",
       dates: "Nov 2023 - March 2024",
@@ -266,7 +290,7 @@ export const DATA = {
     {
       title: "Delivery system",
       href: "https://www.youtube.com/watch?v=nVouFHwsmfU",
-      dates: "Nov 2023 - March 2024",
+      dates: "Feb 2022 - October 2022",
       active: true,
       description:
         "A system that merges marketplace and on-demand deliveries by independant couriers.",
